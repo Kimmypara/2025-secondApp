@@ -11,7 +11,22 @@ export class CreateAliPage implements OnInit {
 
   header="Food";
   list=[
-    
+    {
+      breakfast:"Oatmeal",
+      lunch:"Salad"
+    },
+    {
+      breakfast:"Cereal",
+      lunch:"Ciabbatta"
+    },
+    {
+      breakfast:"Omelette",
+      lunch:"Soup"
+    },
+    {
+      breakfast:"Cereal",
+      lunch:"Ciabbatta"
+    }
   ]
 
   constructor() { }
